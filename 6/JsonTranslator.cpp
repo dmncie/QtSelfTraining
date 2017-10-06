@@ -22,10 +22,10 @@ QString JsonTranslator::translate(QString const& input) {
             parseObject(doc.object());
             writer.writeEndDocument();
         } else {
-            qDebug() << "Document is not an object";
+            return "ERROR";
         }
     } else {
-        qDebug() << "Invalid JSON...\n" << input;
+        return "ERROR";
     }
 
     return output;

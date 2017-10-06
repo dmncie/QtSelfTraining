@@ -2,14 +2,14 @@
 #define MAINWINDOW_HPP
 
 #include <QMainWindow>
-#include <JsonTranslator.hpp>
+#include "JsonTranslator.hpp"
+#include <XmlTranslator.hpp>
 
 namespace Ui {
 class MainWindow;
 }
 
-class MainWindow : public QMainWindow
-{
+class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
@@ -21,6 +21,7 @@ private slots:
 
 private:
     JsonTranslator jsonTranslator;
+    XmlTranslator xmlTranslator;
     Ui::MainWindow *ui;
 };
 

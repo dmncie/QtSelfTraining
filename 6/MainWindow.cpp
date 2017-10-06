@@ -4,7 +4,8 @@
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow),
-    jsonTranslator{}
+    jsonTranslator{},
+    xmlTranslator{}
 {
     ui->setupUi(this);
 }
@@ -15,7 +16,13 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::on_pushButton_clicked() {
-    ui->outputText->setPlainText(
-                jsonTranslator.translate(ui->inputText->toPlainText())
-                );
+    if(ui->comboBox->currentIndex() == 0) {
+        ui->outputText->setPlainText(
+                    jsonTranslator.translate(ui->inputText->toPlainText())
+                    );
+    } else {
+        ui->outputText->setPlainText(
+                    xmlTranslator.translate(ui->inputText->toPlainText())
+                    );
+    }
 }

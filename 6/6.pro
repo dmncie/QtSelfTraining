@@ -27,13 +27,13 @@ SOURCES += \
         main.cpp \
         MainWindow.cpp \
     JsonTranslator.cpp \
-    JsonTranslatorWAttr.cpp
+    XmlTranslator.cpp
 
 HEADERS += \
         MainWindow.hpp \
     Translator.hpp \
     JsonTranslator.hpp \
-    JsonTranslatorWAttr.hpp
+    XmlTranslator.hpp
 
 FORMS += \
         MainWindow.ui
