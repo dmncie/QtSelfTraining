@@ -11,8 +11,10 @@ public:
     QString translate(QString const& input);
 
 private:
-    QJsonDocument doc{};
-    QXmlStreamReader reader;
+    void parseJsonObject(QJsonObject& obj);
+
+private:
+    QXmlStreamReader xml;
 };
 
 #endif // XMLTRANSLATOR_HPP
