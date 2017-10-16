@@ -12,6 +12,11 @@ int parseArguments(QCoreApplication const& app, QCommandLineParser& parser) {
     parser.process(app);
     const QStringList args = parser.positionalArguments();
 
+    if (args.size() < 1) {
+        throw std::invalid_argument("Missing argument. Expected an integer.");
+    }
+
+
     bool ok{};
     int limit = args.at(0).toInt(&ok);
 
