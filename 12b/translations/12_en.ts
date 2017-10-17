@@ -4,103 +4,98 @@
 <context>
     <name>Page1Form.ui</name>
     <message>
-        <location filename="Page1Form.ui.qml" line="34"/>
+        <location filename="../Page1Form.ui.qml" line="34"/>
         <source>Name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="39"/>
-        <location filename="Page1Form.ui.qml" line="51"/>
+        <location filename="../Page1Form.ui.qml" line="39"/>
+        <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Text Field</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="46"/>
+        <location filename="../Page1Form.ui.qml" line="46"/>
         <source>Last Name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="57"/>
+        <location filename="../Page1Form.ui.qml" line="57"/>
         <source>Age:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="66"/>
+        <location filename="../Page1Form.ui.qml" line="66"/>
         <source>Country:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="72"/>
-        <source>text</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="Page1Form.ui.qml" line="76"/>
+        <location filename="../Page1Form.ui.qml" line="72"/>
         <source>Poland</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="80"/>
+        <location filename="../Page1Form.ui.qml" line="76"/>
         <source>England</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="84"/>
+        <location filename="../Page1Form.ui.qml" line="80"/>
         <source>Germany</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="98"/>
+        <location filename="../Page1Form.ui.qml" line="107"/>
         <source>Sports:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="112"/>
+        <location filename="../Page1Form.ui.qml" line="121"/>
         <source>swimming</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="117"/>
+        <location filename="../Page1Form.ui.qml" line="126"/>
         <source>running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="122"/>
+        <location filename="../Page1Form.ui.qml" line="131"/>
         <source>heavy weight lifting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="127"/>
+        <location filename="../Page1Form.ui.qml" line="136"/>
         <source>skating</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="132"/>
+        <location filename="../Page1Form.ui.qml" line="141"/>
         <source>cricket</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="137"/>
+        <location filename="../Page1Form.ui.qml" line="146"/>
         <source>hockey</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="142"/>
+        <location filename="../Page1Form.ui.qml" line="151"/>
         <source>basketball</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="147"/>
+        <location filename="../Page1Form.ui.qml" line="156"/>
         <source>football</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="165"/>
+        <location filename="../Page1Form.ui.qml" line="174"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Page1Form.ui.qml" line="171"/>
+        <location filename="../Page1Form.ui.qml" line="180"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -108,7 +103,8 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="main.qml" line="13"/>
+        <location filename="../main.qml" line="14"/>
+        <location filename="../main.qml" line="25"/>
         <source>Hello World</source>
         <translation type="unfinished"></translation>
     </message>

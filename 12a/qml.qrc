@@ -6,5 +6,6 @@
         <file>qtquickcontrols2.conf</file>
         <file>translations/12_en.qm</file>
         <file>translations/12_pl.qm</file>
+        <file>translations/12_de.qm</file>
     </qresource>
 </RCC>
