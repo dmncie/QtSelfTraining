@@ -4,7 +4,7 @@ import QtQuick.Layouts 1.3
 
 Item {
     width: 400
-    height: 600
+    height: 500
 
     property alias gridLayout: gridLayout
     property alias rowLayout: rowLayout
@@ -151,8 +151,6 @@ Item {
 
         Item {
             id: spacer
-            width: 200
-            height: 200
             Layout.fillHeight: true
             Layout.fillWidth: true
         }
@@ -176,13 +174,13 @@ Item {
         }
     }
 
-    //    Connections {
-    //        target: button1
-    //        onClicked: close()
-    //    }
+    Connections {
+        target: button1
+        onClicked: close()
+    }
 
-    //    Connections {
-    //        target: button
-    //        onClicked: close()
-    //    }
+    Connections {
+        target: button
+        onClicked: close()
+    }
 }
